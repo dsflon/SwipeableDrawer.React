@@ -1,14 +1,15 @@
 # SwipeableDrawer
 
-## Development
+## Demo
+https://dsflon.github.io/SwipeableDrawer.React/
 
-### Install
+## Install
 ```bash
 $ cd /path/to/pitpet/services/frontend
 $ npm install
 ```
 
-### Run
+## Run
 ```bash
 $ cd /path/to/project
 
@@ -16,7 +17,7 @@ $ cd /path/to/project
 $ npm run dev
 ```
 
-### Usage
+## Usage
 
 ``` tsx
 import { useState } from 'react';
