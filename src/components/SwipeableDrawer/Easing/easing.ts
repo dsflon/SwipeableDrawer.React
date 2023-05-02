@@ -47,7 +47,6 @@ export function easeInOutCubic({
   return (c / 2.0) * (t * t * t + 2) + b;
 }
 
-
 // Quartic
 export function easeInQuart({
   t, b, c, d,
@@ -74,7 +73,6 @@ export function easeInOutQuart({
   t -= 2;
   return (-c / 2.0) * (t * t * t * t - 2) + b;
 }
-
 
 // Quintic
 export function easeInQuint({
