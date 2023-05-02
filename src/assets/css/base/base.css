@@ -13,8 +13,6 @@ body {
   /* stylelint-disable-next-line selector-id-pattern */
   & > #__next {
     min-height: 100vh;
-
-    /* stylelint-disable-next-line unit-no-unknown */
     min-height: 100dvh;
   }
 }
