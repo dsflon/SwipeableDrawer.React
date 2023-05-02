@@ -1,0 +1,35 @@
+/**
+ * 共通カラーパレット
+ *
+ * @example
+ *   body {
+ *     background-color: var(--bg-white);
+ *     color: var(--text-body);
+ *   }
+ */
+:root {
+  --color-primary: #0041c0;
+  --color-secondary: #49b7ed;
+  --color-tertiary: #74d2ff;
+  --color-quaternary: #6bacd3;
+  --color-background: #EFEFEF;
+
+  /* neutral colors */
+  --color-900: #000;
+  --color-800: #231f20;
+  --color-700: #4d4d4d;
+  --color-600: #727272;
+  --color-500: #bcbdbf;
+  --color-400: #ccc;
+  --color-300: #d3d3d3;
+  --color-200: #ededed;
+  --color-100: #f7f7f7;
+  --color-000: #fff;
+
+  /* other colors */
+  --color-red: #da2a14;
+  --color-yellow: #fdb62d;
+  --color-orange: #e88000;
+  --color-green: #629d1d;
+  --color-blue: #3a56e1;
+}

@@ -1,0 +1,20 @@
+:root {
+  /**
+   * width
+   */
+  --width-navigation: 272px;
+  --width-content: calc(100vw - var(--width-navigation));
+  --width-content-min: calc(64px * 22);
+
+  /**
+   * height
+   */
+  --height-header: 86px;
+
+  /**
+   * radius
+   */
+  --radius-l: 8px;
+  --radius-m: 5px;
+  --radius-s: 3px;
+}

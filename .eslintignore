@@ -1,0 +1,17 @@
+!.*
+node_modules
+.nuxt
+nuxt/static
+static
+.venv/
+venv/
+
+**/assets/icomoon
+**/apollo
+**/dist
+**/build
+
+**/*.js
+*.d.ts
+
+storybook

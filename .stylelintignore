@@ -1,0 +1,10 @@
+node_modules
+.next
+next/static
+static
+
+src/assets/icomoon
+dist
+public
+
+storybook

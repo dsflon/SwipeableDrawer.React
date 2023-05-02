@@ -1,0 +1,57 @@
+.e-hover\:opacity {
+  transition: opacity 0.3s ease;
+
+  @media (hover: hover) {
+    &:hover {
+      opacity: 0.6;
+    }
+  }
+}
+
+.e-hover\:rotate {
+  transition: opacity 0.3s ease, transform 0.3s ease;
+
+  @media (hover: hover) {
+    &:hover {
+      opacity: 0.8;
+      transform: rotate(-90deg);
+    }
+  }
+}
+
+.e-hover\:bg,
+.e-hover\:bg-white {
+  position: relative;
+
+  &::after {
+    content: "";
+    display: block;
+    width: 200%;
+    height: 0;
+    padding-bottom: 200%;
+    background-color: rgb(0 0 0 / 4%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+    border-radius: 100%;
+    transition: opacity 0.3s ease;
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  @media (hover: hover) {
+    &:hover {
+      &::after {
+        opacity: 1;
+      }
+    }
+  }
+}
+
+.e-hover\:bg-white {
+  &::after {
+    background-color: rgb(255 255 255 / 8%);
+  }
+}

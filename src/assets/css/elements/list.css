@@ -1,0 +1,6 @@
+[class^="e-list"],
+[class*=" e-list"] {
+  & > li {
+    margin-bottom: calc(var(--gutter-base) / 4);
+  }
+}

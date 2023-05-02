@@ -1,0 +1,40 @@
+/**
+ * 共通フォントファミリー
+ *
+ * @example
+ *   body {
+ *     font-family: var(--font-family-primary);
+ *   }
+ */
+
+/* @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap"); */
+
+:root {
+  /* sans-serif */
+  --font-family-primary:
+    /* "Noto Sans JP", */
+    "游ゴシック体",
+    yugothic,
+    "游ゴシック Medium",
+    "Yu Gothic Medium",
+    "游ゴシック",
+    "Yu Gothic",
+    -apple-system,
+    "BlinkMacSystemFont",
+    "Helvetica Neue",
+    "Hiragino Kaku Gothic ProN",
+    "Hiragino Sans",
+    "Meiryo",
+    sans-serif;
+
+  /* default font size */
+  --font-size-default: calc(var(--font-size-criteria) * 1px);
+  --font-size-base: 1rem;
+  --font-size-2xl: calc(var(--pxtorem) * 30);
+  --font-size-xl: calc(var(--pxtorem) * 22);
+  --font-size-lg: calc(var(--pxtorem) * 20);
+  --font-size-md: calc(var(--pxtorem) * 18);
+  --font-size-sm: calc(var(--pxtorem) * 14);
+  --font-size-xs: calc(var(--pxtorem) * 12);
+  --font-size-2xs: calc(var(--pxtorem) * 10);
+}

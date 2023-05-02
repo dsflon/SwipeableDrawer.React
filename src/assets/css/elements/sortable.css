@@ -1,0 +1,13 @@
+.e-sortable_button {
+  cursor: grab;
+}
+
+.e-sortable_ghost {
+  opacity: 0.4;
+}
+
+[draggable="true"] {
+  & .e-sortable_button {
+    cursor: grabbing !important;
+  }
+}
